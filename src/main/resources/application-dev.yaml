@@ -1,0 +1,4 @@
+api:
+    forecast-service:
+        url: "https://community-open-weather-map.p.rapidapi.com"
+        api-key: ".."  #ALWAYS REMOVE BEFORE COMMITTING

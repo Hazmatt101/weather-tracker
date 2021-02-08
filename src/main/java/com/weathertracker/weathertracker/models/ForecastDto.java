@@ -19,11 +19,11 @@ public class ForecastDto {
     @Builder
     @NoArgsConstructor
     @AllArgsConstructor
-    private static class Forecast {
+    public static class Forecast {
         private Instant dateTime;
         private GeneralForecastInfo generalForecastInfo;
         private List<Weather> weather;
-        private List<Cloud> clouds;
+        private Clouds clouds;
         private Wind wind;
     }
 
@@ -31,21 +31,21 @@ public class ForecastDto {
     @Builder
     @NoArgsConstructor
     @AllArgsConstructor
-    private static class GeneralForecastInfo {
+    public static class GeneralForecastInfo {
         private Double temp;
         private Double tempMin;
         private Double tempMax;
         private Double pressure;
         private Double seaLevel;
         private Double groundLevel;
-        private Double humidity;
+        private Integer humidity;
     }
 
     @Data
     @Builder
     @NoArgsConstructor
     @AllArgsConstructor
-    private static class Weather {
+    public static class Weather {
         private String id;
         private String weatherName;
         private String description;
@@ -55,15 +55,15 @@ public class ForecastDto {
     @Builder
     @NoArgsConstructor
     @AllArgsConstructor
-    private static class Cloud {
-        private Integer numClouds;  //TODO confirm that this is correct
+    public static class Clouds {
+        private Integer numClouds;
     }
 
     @Data
     @Builder
     @NoArgsConstructor
     @AllArgsConstructor
-    private static class Wind {
+    public static class Wind {
         private Double speed;
         private Double degree;
     }

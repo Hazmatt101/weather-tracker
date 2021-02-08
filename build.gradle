@@ -22,10 +22,15 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.mockito:mockito-core:3.7.7'
     compile 'org.springframework.boot:spring-boot-starter-webflux'
+    compile 'com.squareup.okhttp3:okhttp:4.9.1'
+    compile 'commons-io:commons-io:2.8.0'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
+    testCompile 'com.squareup.okhttp3:mockwebserver:4.9.1'
+    testCompile 'org.assertj:assertj-core:3.19.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

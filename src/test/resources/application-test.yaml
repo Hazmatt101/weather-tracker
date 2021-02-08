@@ -1,0 +1,4 @@
+api:
+    forecast-service:
+        url: "https://dummy-forcast-url.com"
+        api-key: "fake-key"

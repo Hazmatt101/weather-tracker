@@ -1,0 +1,90 @@
+{
+  "cod": "200",
+  "message": 0,
+  "cnt": 2,
+  "list": [
+    {
+      "dt": 1612753200,
+      "main": {
+        "temp": 15.33,
+        "feels_like": 14.09,
+        "temp_min": 15.21,
+        "temp_max": 15.33,
+        "pressure": 1013,
+        "sea_level": 1013,
+        "grnd_level": 1012,
+        "humidity": 73,
+        "temp_kf": 0.12
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 10
+      },
+      "wind": {
+        "speed": 2.04,
+        "deg": 195
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2021-02-08 03:00:00"
+    },
+    {
+      "dt": 1612764000,
+      "main": {
+        "temp": 14.79,
+        "feels_like": 13.06,
+        "temp_min": 14.61,
+        "temp_max": 14.79,
+        "pressure": 1014,
+        "sea_level": 1014,
+        "grnd_level": 1013,
+        "humidity": 72,
+        "temp_kf": 0.18
+      },
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01n"
+        }
+      ],
+      "clouds": {
+        "all": 4
+      },
+      "wind": {
+        "speed": 2.46,
+        "deg": 168
+      },
+      "visibility": 10000,
+      "pop": 0,
+      "sys": {
+        "pod": "n"
+      },
+      "dt_txt": "2021-02-08 06:00:00"
+    }
+  ],
+  "city": {
+    "id": 5358705,
+    "name": "Huntington Beach",
+    "coord": {
+      "lat": 33.6603,
+      "lon": -117.9992
+    },
+    "country": "US",
+    "population": 189992,
+    "timezone": -28800,
+    "sunrise": 1612709011,
+    "sunset": 1612747732
+  }
+}
